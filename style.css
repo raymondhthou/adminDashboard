@@ -228,6 +228,8 @@ input:focus {
     background-color: var(--secondary-color);
     color: var(--project-text-color);
     border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+    border-left: 8px solid var(--navigation-color);
 }
 
 .project_texts>h3 {
@@ -261,6 +263,7 @@ input:focus {
     line-height: 1.2;
     font-size: 1;
     font-weight: 400;
+    border-radius: 7px;
 }
 
 .project_icons {
@@ -270,7 +273,7 @@ input:focus {
     right: 0;
     margin-bottom: 4%;
     margin-right: 5%;
-    gap: 2.5rem;
+    gap: 1.5rem;
 }
 
 /* main-content right-side of project */
@@ -298,6 +301,7 @@ input:focus {
     font-weight: 400;
     justify-content: center;
     align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
 }
 
 .announce>h3 {
@@ -318,6 +322,7 @@ input:focus {
     margin-top: 0.4rem;
     font-size: 1em;
     line-height: 1.4;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
 }
 
 .trending_title {
